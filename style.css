@@ -104,6 +104,8 @@ background-color:darkgray;
     nav ul {
       gap: 1rem;
       text-align: center;
+      font-size: medium;
+
     }
   
     nav ul li {
