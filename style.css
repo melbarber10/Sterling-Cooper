@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav ul {
+display: flex;
+gap: 3rem;
+list-style: none;
+font-size:x-large;
+}
+nav ul li a {
+    text-decoration: none;
+    color: goldenrod;
+    transition:all ease 0.5s;
+}
+
+nav ul li a:hover {
+    color: whitesmoke;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.title h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color:goldenrod;
+
+}
+.home-class {
+    background-color: rgb(12, 24, 22);
+
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color:lavender;
+
+}
+.myname {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:rgb(28, 28, 119);
+}
+.name {
+    font-size: 1rem;
+}
+#features {
+background-color:darkgray;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.line {
+  width: 10px;
+  height: 40px;
+  background: #dc3545;
+  transition: width 1s ease 0s;
+}
+.line:hover {
+    width: 100%;
+}
+#our-services {
+    background-color:rgb(11, 21, 74);
+}
+.extra-info {
+    color: azure;
+}
+#contact_us {
+    background-color: navajowhite;
+    position:absolute;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    color:darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.copyright  {
+    text-align: left;
+}
+#contact_us h1 {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    nav ul li {
+      margin: 0.5rem 0;
+    }
+  
+    .title h1 {
+      font-size: 2rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  
+    .myname {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+ 
+    #features .icon-square,
+    #features h3 {
+      text-align: center;
+    }
+  
+    #our-services .extra-info {
+      text-align: center;
+    }
+  
+    #contact_us {
+      padding: 2rem 0;
+    }
+  
+    #contact_us h1 {
+      text-align: center;
+    }
+  
+    #contact_us p {
+      text-align: center;
+    }
+  
+    .copyright {
+      text-align: center;
+    }
+  }
+  
